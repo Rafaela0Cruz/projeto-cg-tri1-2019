@@ -13256,9 +13256,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911836140}
-  - component: {fileID: 1911836141}
   - component: {fileID: 1911836142}
   - component: {fileID: 1911836143}
+  - component: {fileID: 1911836141}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -13289,15 +13289,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1911836139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8594f9152579f642887062859e1d578, type: 3}
+  m_Script: {fileID: 11500000, guid: b1692b0edf952944090c4e59bdee3981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TapeSpeed: {x: -2, y: 0, z: 0}
+  TapeSpeed: {x: -5, y: 0, z: 0}
   Tape: {fileID: 1217824280}
   uiComponents:
     hud:
       TxtCoinCount: {fileID: 1837244239}
-      TxtLifeCount: {fileID: 0}
       panelHud: {fileID: 296149846}
 --- !u!114 &1911836142
 MonoBehaviour:
